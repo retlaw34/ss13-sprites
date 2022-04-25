@@ -46,8 +46,8 @@
 	id = /obj/item/card/id/silver
 	belt = /obj/item/pda/heads/hop
 	ears = /obj/item/radio/headset/heads/hop
-	uniform = /obj/item/clothing/under/rank/civilian/head_of_personnel
-	shoes = /obj/item/clothing/shoes/laceup
+	uniform = /obj/item/clothing/under/rank/command/head_of_personnel
+	shoes = /obj/item/clothing/shoes/sneakers/brown
 	head = /obj/item/clothing/head/hopcap
 	backpack_contents = list(/obj/item/storage/box/ids=1,\
 		/obj/item/melee/classic_baton/telescopic=1, /obj/item/modular_computer/tablet/preset/advanced/command = 1)
@@ -59,3 +59,7 @@
 	if(locate(/datum/holiday/ianbirthday) in SSevents.holidays)
 		undershirt = /datum/sprite_accessory/undershirt/ian
 
+/datum/outfit/job/hop/freelancer
+	name = "Head of Personnel (Freelancer)"
+	uniform = /obj/item/clothing/under/rank/command/head_of_personnel/freelancer
+	head = /obj/item/clothing/head/hopcap/freelancer

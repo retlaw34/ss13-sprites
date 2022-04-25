@@ -28,11 +28,10 @@
 					/obj/item/clothing/mask/bandana/red = 3,
 					/obj/item/clothing/gloves/color/black = 3,
 					/obj/item/clothing/under/rank/security/officer/skirt = 3,
-					/obj/item/clothing/under/rank/security/officer/grey = 3,
 					/obj/item/clothing/under/pants/khaki = 3,
 					/obj/item/clothing/under/rank/security/officer/blueshirt = 3,
 					/obj/item/clothing/suit/neocoat/brigdoc = 1,
-					/obj/item/clothing/suit/neocoat/trench/brigdoc = 1,)
+					/obj/item/clothing/suit/neocoat/brigdoc= 1,)
 	premium = list(/obj/item/clothing/under/rank/security/officer/formal = 3,
 					/obj/item/clothing/suit/security/officer = 3,
 					/obj/item/clothing/head/beret/sec/navyofficer = 3)
@@ -65,7 +64,6 @@
 					/obj/item/clothing/under/rank/medical/doctor = 4,
 					/obj/item/clothing/suit/toggle/labcoat = 4,
 					/obj/item/clothing/suit/neocoat = 4,
-					/obj/item/clothing/suit/neocoat/trench = 4,
 					/obj/item/clothing/suit/toggle/labcoat/paramedic = 4,
 					/obj/item/clothing/shoes/sneakers/white = 4,
 					/obj/item/clothing/head/soft/paramedic = 4,
@@ -168,8 +166,6 @@
 					/obj/item/clothing/suit/toggle/labcoat/roboticist = 2,
 					/obj/item/clothing/suit/neocoat/robowhite = 2,
 					/obj/item/clothing/suit/neocoat/roboblack = 2,
-					/obj/item/clothing/suit/neocoat/trench/robo = 2,
-					/obj/item/clothing/suit/neocoat/trench/roboblack = 2,
 					/obj/item/clothing/shoes/sneakers/black = 2,
 					/obj/item/clothing/gloves/fingerless = 2,
 					/obj/item/clothing/head/soft/black = 2,
@@ -198,7 +194,6 @@
 					/obj/item/clothing/under/rank/rnd/scientist/skirt = 3,
 					/obj/item/clothing/suit/toggle/labcoat/science = 3,
 					/obj/item/clothing/suit/neocoat/sci = 3,
-					/obj/item/clothing/suit/neocoat/trench/sci = 3,
 					/obj/item/clothing/shoes/sneakers/white = 3,
 					/obj/item/radio/headset/headset_sci = 3,
 					/obj/item/clothing/mask/gas = 3)
@@ -244,8 +239,8 @@
 					/obj/item/pen/fountain = 2,
 					/obj/item/clothing/accessory/pocketprotector = 2,
 					/obj/item/clothing/under/rank/civilian/curator/skirt = 2,
-					/obj/item/clothing/under/rank/captain/suit/skirt = 2,
-					/obj/item/clothing/under/rank/civilian/head_of_personnel/suit/skirt = 2,
+					/obj/item/clothing/under/rank/command/captain/suit/skirt = 2,
+					/obj/item/clothing/under/rank/command/head_of_personnel/suit/skirt = 2,
 					/obj/item/storage/backpack/satchel/explorer = 1,
 					/obj/item/clothing/glasses/regular = 2,
 					/obj/item/clothing/glasses/regular/jamjar = 1,
@@ -428,7 +423,6 @@
 					/obj/item/clothing/suit/toggle/labcoat/pharmacist = 2,
 					/obj/item/clothing/suit/neocoat/chemre = 2,
 					/obj/item/clothing/suit/neocoat/pharm = 2,
-					/obj/item/clothing/suit/neocoat/trench/pharm = 2,
 					/obj/item/storage/backpack/chemistry = 2,
 					/obj/item/storage/backpack/satchel/chem = 4,
 					/obj/item/storage/backpack/duffelbag/chemistry = 2,
@@ -450,7 +444,6 @@
 					/obj/item/clothing/shoes/sneakers/white = 2,
 					/obj/item/clothing/suit/toggle/labcoat/genetics = 2,
 					/obj/item/clothing/suit/neocoat/gene = 2,
-					/obj/item/clothing/suit/neocoat/trench/gene = 2,
 					/obj/item/storage/backpack/genetics = 2,
 					/obj/item/storage/backpack/satchel/gen = 2,
 					/obj/item/storage/backpack/duffelbag/genetics = 2)
@@ -470,8 +463,6 @@
 					/obj/item/clothing/shoes/sneakers/white = 2,
 					/obj/item/clothing/suit/toggle/labcoat/virologist = 2,
 					/obj/item/clothing/suit/neocoat/viro = 2,
-					/obj/item/clothing/suit/neocoat/trench/viro = 2,
-					/obj/item/clothing/mask/surgical = 2,
 					/obj/item/storage/backpack/virology = 2,
 					/obj/item/storage/backpack/satchel/vir = 2,
 					/obj/item/storage/backpack/duffelbag/virology = 2)
