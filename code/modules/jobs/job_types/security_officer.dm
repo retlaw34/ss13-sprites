@@ -141,7 +141,6 @@ GLOBAL_LIST_INIT(available_depts, list(SEC_DEPT_ENGINEERING, SEC_DEPT_MEDICAL, S
 	name = "Security Officer (Freelancer)"
 
 	uniform = /obj/item/clothing/under/rank/security/officer/freelancer
-	suit = /obj/item/clothing/suit/armor/vest/common
 
 /obj/item/radio/headset/headset_sec/alt/department/Initialize()
 	. = ..()

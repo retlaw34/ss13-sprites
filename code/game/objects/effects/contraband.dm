@@ -447,9 +447,9 @@
 	icon_state = "random_official"
 	never_random = TRUE
 
-/obj/structure/sign/poster/official/here_for_your_safety
-	name = "Here For Your Safety"
-	desc = "A poster glorifying the station's security force."
+/obj/structure/sign/poster/official/kepler
+	name = "Kepler 22B"
+	desc = "A poster depecting Nanotrasen's mission on the planet. You suspect it was never printed off the planet."
 	icon_state = "poster1_legit"
 
 /obj/structure/sign/poster/official/nanotrasen_logo

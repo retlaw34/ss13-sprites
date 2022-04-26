@@ -24,10 +24,6 @@
 	blood_overlay_type = "armor"
 	dog_fashion = /datum/dog_fashion/back
 
-/obj/item/clothing/suit/armor/vest/common
-	desc = "A common generic armor vest. While the designs and producers vary, this neverless the most used armor in the sector."
-	icon_state = "armor_common"
-
 /obj/item/clothing/suit/armor/vest/alt
 	desc = "A C2-A armored vest that provides decent protection against most types of damage."
 	icon_state = "armor"
