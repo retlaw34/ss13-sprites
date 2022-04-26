@@ -222,12 +222,12 @@
 	desc = "A sign with the Nanotrasen logo on it. It looks like it has seen better days."
 	icon_state = "nanotrasen-old"
 
-/obj/structure/sign/nanotrasen/romulus
+/obj/structure/sign/romulus
 	name = "\improper Romulus Emblem"
-	desc = "A sign with the emblem of the planet Romulus. It's a miracle Nanotrasen even hired a designer "
+	desc = "A sign with the emblem of the planet Romulus. It's a miracle Nanotrasen even hired a graphic designer for this drifting rock."
 	icon_state = "nanotrasen-old"
+	is_editable = FALSE
 
-is_editable = FALSE
 /obj/structure/sign/logo
 	name = "\improper Nanotrasen logo sign"
 	desc = "The Nanotrasen corporate logo."

@@ -37,6 +37,13 @@
 	ME.attach(src)
 	max_ammo()
 
+/obj/vehicle/sealed/mecha/combat/marauder/add_cell(obj/item/stock_parts/cell/C=null)
+	if(C)
+		C.forceMove(src)
+		cell = C
+		return
+	cell = new /obj/item/stock_parts/cell/bluespace(src)
+
 /obj/vehicle/sealed/mecha/combat/marauder/operator_mech/Initialize()
 	. = ..()
 	var/obj/item/mecha_parts/mecha_equipment/ME = new /obj/item/mecha_parts/mecha_equipment/thrusters/ion(src)

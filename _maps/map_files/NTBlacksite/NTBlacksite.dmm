@@ -18296,21 +18296,21 @@
 /turf/open/floor/plasteel/dark,
 /area/security/warden)
 "aEX" = (
-/obj/item/ammo_box/shotgun/rubber{
+/obj/item/storage/box/rubbershot{
 	pixel_x = -3;
 	pixel_y = 3
 	},
-/obj/item/ammo_box/shotgun/rubber{
+/obj/item/storage/box/rubbershot{
 	pixel_x = -3;
 	pixel_y = 3
 	},
-/obj/item/ammo_box/shotgun/rubber,
-/obj/item/ammo_box/shotgun/rubber,
-/obj/item/ammo_box/shotgun/rubber{
+/obj/item/storage/box/rubbershot,
+/obj/item/storage/box/rubbershot,
+/obj/item/storage/box/rubbershot{
 	pixel_x = 3;
 	pixel_y = -3
 	},
-/obj/item/ammo_box/shotgun/rubber{
+/obj/item/storage/box/rubbershot{
 	pixel_x = 3;
 	pixel_y = -3
 	},
@@ -45171,7 +45171,7 @@
 /obj/item/radio/intercom{
 	pixel_y = -28
 	},
-/obj/item/ammo_box/shotgun/rubber{
+/obj/item/storage/box/rubbershot{
 	pixel_x = 3;
 	pixel_y = -3
 	},
@@ -71610,6 +71610,7 @@
 /turf/open/floor/plating/airless,
 /area/space/nearstation)
 "cow" = (
+/obj/structure/lattice,
 /obj/structure/grille,
 /turf/closed/wall/r_wall,
 /area/space/nearstation)
@@ -88437,6 +88438,7 @@
 /turf/open/floor/plasteel/dark,
 /area/centcom/ferry)
 "kvW" = (
+/obj/structure/lattice,
 /obj/machinery/atmospherics/pipe/simple/general/visible{
 	dir = 4
 	},
@@ -92936,15 +92938,15 @@
 	dir = 5
 	},
 /obj/structure/closet/crate,
-/obj/item/ammo_box/shotgun/buckshot,
-/obj/item/ammo_box/shotgun/buckshot,
-/obj/item/ammo_box/shotgun/buckshot,
-/obj/item/ammo_box/shotgun/buckshot,
-/obj/item/ammo_box/shotgun/buckshot,
-/obj/item/ammo_box/shotgun/buckshot,
-/obj/item/ammo_box/shotgun/buckshot,
-/obj/item/ammo_box/shotgun/buckshot,
-/obj/item/ammo_box/shotgun/buckshot,
+/obj/item/storage/box/lethalshot,
+/obj/item/storage/box/lethalshot,
+/obj/item/storage/box/lethalshot,
+/obj/item/storage/box/lethalshot,
+/obj/item/storage/box/lethalshot,
+/obj/item/storage/box/lethalshot,
+/obj/item/storage/box/lethalshot,
+/obj/item/storage/box/lethalshot,
+/obj/item/storage/box/lethalshot,
 /turf/open/floor/plating,
 /area/centcom/ferry)
 "vNs" = (

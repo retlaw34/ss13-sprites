@@ -1420,6 +1420,10 @@
 	},
 /turf/open/floor/plasteel/white,
 /area/medical/medbay/central)
+"acU" = (
+/obj/structure/grille,
+/turf/closed/wall/r_wall,
+/area/engine/atmos)
 "acV" = (
 /obj/machinery/atmospherics/pipe/simple/general/visible{
 	dir = 9
@@ -5226,11 +5230,11 @@
 /obj/effect/turf_decal/corner/blue,
 /obj/machinery/light,
 /obj/structure/table,
+/obj/item/healthanalyzer,
 /obj/item/reagent_containers/spray/cleaner{
 	pixel_x = -3;
 	pixel_y = 2
 	},
-/obj/item/healthanalyzer/paramed,
 /turf/open/floor/plasteel/white,
 /area/medical/medbay/central)
 "ajw" = (
@@ -10834,6 +10838,10 @@
 /obj/structure/stairs/west,
 /turf/open/floor/plasteel,
 /area/hallway/primary/port)
+"ayv" = (
+/obj/structure/grille,
+/turf/closed/wall/r_wall,
+/area/space/nearstation)
 "ayQ" = (
 /obj/machinery/computer/card/minor/rd{
 	dir = 4
@@ -14205,6 +14213,7 @@
 /turf/open/floor/circuit/green,
 /area/ai_monitored/turret_protected/ai_upload)
 "ePH" = (
+/obj/structure/lattice,
 /obj/structure/grille,
 /turf/closed/wall/r_wall,
 /area/space/nearstation)
@@ -15320,7 +15329,7 @@
 "hDm" = (
 /obj/structure/closet/secure_closet/bar,
 /obj/item/gun/ballistic/shotgun/doublebarrel,
-/obj/item/ammo_box/shotgun/beanbag,
+/obj/item/storage/box/beanbag,
 /obj/structure/disposalpipe/segment{
 	dir = 8
 	},
@@ -16364,21 +16373,16 @@
 /obj/effect/turf_decal/corner/neutral{
 	dir = 4
 	},
-<<<<<<< HEAD
-/obj/effect/turf_decal/tile/neutral,
-/obj/item/ammo_box/shotgun/rubber{
-=======
 /obj/effect/turf_decal/corner/neutral,
 /obj/item/storage/box/rubbershot{
->>>>>>> baytiles
 	pixel_x = -3;
 	pixel_y = 3
 	},
-/obj/item/ammo_box/shotgun/rubber{
+/obj/item/storage/box/rubbershot{
 	pixel_x = -3;
 	pixel_y = 3
 	},
-/obj/item/ammo_box/shotgun/rubber{
+/obj/item/storage/box/rubbershot{
 	pixel_x = -3;
 	pixel_y = 3
 	},
@@ -19903,6 +19907,7 @@
 	pixel_x = -4;
 	pixel_y = 4
 	},
+/obj/item/melee/chainofcommand,
 /obj/machinery/requests_console{
 	announcementConsole = 1;
 	department = "Captain's Desk";
@@ -43080,10 +43085,10 @@ aaa
 aaa
 aaa
 aaa
-aHv
-aHv
-aHv
-aHv
+acU
+acU
+acU
+acU
 aaa
 aaa
 aaa
@@ -43337,10 +43342,10 @@ aaa
 aaa
 aaa
 aaa
-aHv
+acU
 iIV
 xlf
-aHv
+acU
 aaa
 aaa
 aaa
@@ -43594,10 +43599,10 @@ aaa
 aaa
 aaa
 aaa
-aHv
+acU
 aEh
 aCL
-aHv
+acU
 aaa
 aaa
 aaa
@@ -43851,10 +43856,10 @@ aaa
 aaa
 aaa
 aaa
-aHv
+acU
 jAR
 pji
-aHv
+acU
 aaa
 aaa
 aaa
@@ -44873,10 +44878,10 @@ aaa
 aaa
 aaa
 aaa
-aHv
-aHv
-aHv
-aHv
+acU
+acU
+acU
+acU
 aga
 aaa
 bbh
@@ -45130,7 +45135,7 @@ aaa
 aaa
 aaa
 aaa
-aHv
+acU
 jyR
 arV
 lZk
@@ -45387,10 +45392,10 @@ aaa
 aaa
 aaa
 aaa
-aHv
-aHv
-aHv
-aHv
+acU
+acU
+acU
+acU
 aga
 aaa
 bbh
@@ -45644,7 +45649,7 @@ aaa
 aaa
 aaa
 aaa
-aHv
+acU
 cNm
 avV
 lZk
@@ -45901,10 +45906,10 @@ aaa
 aaa
 aaa
 aaa
-aHv
-aHv
-aHv
-aHv
+acU
+acU
+acU
+acU
 aga
 aaa
 bbh
@@ -46158,7 +46163,7 @@ aaa
 aaa
 aaa
 aaa
-aHv
+acU
 wdd
 aWJ
 qjO
@@ -46672,7 +46677,7 @@ aaa
 aaa
 aaa
 aaa
-aHv
+acU
 cZj
 aUB
 lZk
@@ -46929,10 +46934,10 @@ aaa
 aaa
 aaa
 aaa
-aHv
-aHv
-aHv
-aHv
+acU
+acU
+acU
+acU
 aga
 nES
 xBA
@@ -47186,7 +47191,7 @@ aaa
 aaa
 aaa
 aaa
-aHv
+acU
 mWY
 aRy
 tys
@@ -47443,10 +47448,10 @@ aaa
 aaa
 aaa
 aaa
-aHv
-aHv
-aHv
-aHv
+acU
+acU
+acU
+acU
 aga
 nES
 mvI
@@ -47700,7 +47705,7 @@ aaa
 aaa
 aaa
 aaa
-aHv
+acU
 oji
 ave
 lsq
@@ -47957,7 +47962,7 @@ aaa
 aaa
 aaa
 aaa
-aHv
+acU
 sNG
 aPD
 lsq
@@ -48214,10 +48219,10 @@ aaa
 aaa
 aaa
 aaa
-aHv
-aHv
-aHv
-aHv
+acU
+acU
+acU
+acU
 aga
 aga
 bgS
@@ -65195,7 +65200,7 @@ aaa
 aaa
 aiD
 aiD
-ePH
+ayv
 aaa
 aaa
 aaa
@@ -65207,7 +65212,7 @@ aaa
 aaa
 aaa
 aaa
-ePH
+ayv
 aiD
 aiD
 aaa
@@ -65450,21 +65455,21 @@ aaa
 aaa
 aaa
 aaa
-ePH
+ayv
 aiD
-ePH
-ePH
-ePH
+ayv
+ayv
+ayv
 aiD
-ePH
-ePH
-ePH
-ePH
-ePH
+ayv
+ayv
+ayv
+ayv
+ayv
 aiD
-ePH
-ePH
-ePH
+ayv
+ayv
+ayv
 aiD
 ePH
 aaa
@@ -65707,7 +65712,7 @@ aaa
 aaa
 aaa
 aaa
-ePH
+ayv
 aiD
 aiD
 aiD
@@ -65723,7 +65728,7 @@ aiD
 aiD
 aiD
 aiD
-ePH
+ayv
 aaa
 aaa
 aaa
@@ -65964,23 +65969,23 @@ aaa
 aaa
 aaa
 aaa
-ePH
-ePH
+ayv
+ayv
 aiD
-ePH
-ePH
-ePH
-ePH
-ePH
+ayv
+ayv
+ayv
+ayv
+ayv
 aiD
-ePH
-ePH
-ePH
-ePH
+ayv
+ayv
+ayv
+ayv
 aiD
 aiD
-ePH
-ePH
+ayv
+ayv
 aaa
 aaa
 aaa

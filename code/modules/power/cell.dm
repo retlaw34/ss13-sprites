@@ -15,15 +15,26 @@
 	throw_speed = 2
 	throw_range = 5
 	w_class = WEIGHT_CLASS_SMALL
-	var/charge = 0	// note %age conveted to actual charge in New
+	///Current charge in cell units
+	var/charge = 0
+	///Maximum charge in cell units
 	var/maxcharge = 1000
 	custom_materials = list(/datum/material/iron=700, /datum/material/glass=50)
 	grind_results = list(/datum/reagent/lithium = 15, /datum/reagent/iron = 5, /datum/reagent/silicon = 5)
-	var/rigged = FALSE	/// If the cell has been booby-trapped by injecting it with plasma. Chance on use() to explode.
-	var/corrupted = FALSE /// If the power cell was damaged by an explosion, chance for it to become corrupted and function the same as rigged.
-	var/chargerate = 100 //how much power is given every tick in a recharger
+	/// If the cell has been booby-trapped by injecting it with plasma. Chance on use() to explode.
+	var/rigged = FALSE
+	/// If the power cell was damaged by an explosion, chance for it to become corrupted and function the same as rigged.
+	var/corrupted = FALSE
+	///how much power is given every tick in a recharger
+	var/chargerate = 100
+	///If true, the cell will state it's maximum charge in it's description
 	var/ratingdesc = TRUE
-	var/grown_battery = FALSE // If it's a grown that acts as a battery, add a wire overlay to it.
+	/// If it's a grown that acts as a battery, add a wire overlay to it.
+	var/grown_battery = FALSE
+	///What charge lige sprite to use, null if no light
+	var/charge_light_type = "standard"
+	///What connector sprite to use when in a cell charger, null if no connectors
+	var/connector_type = "standard"
 
 /obj/item/stock_parts/cell/get_cell()
 	return src
@@ -53,12 +64,9 @@
 	. = ..()
 	if(grown_battery)
 		. += mutable_appearance('icons/obj/power.dmi', "grown_wires")
-	if(charge < 0.01)
+	if((charge < 0.01) || !charge_light_type)
 		return
-	else if(charge/maxcharge >=0.995)
-		. += mutable_appearance('icons/obj/power.dmi', "cell-o2")
-	else
-		. += mutable_appearance('icons/obj/power.dmi', "cell-o1")
+	. += mutable_appearance('icons/obj/power.dmi', "cell-[charge_light_type]-o[(percent() >= 99.5) ? 2 : 1]")
 
 /obj/item/stock_parts/cell/proc/percent()		// return % charge of cell
 	return 100*charge/maxcharge
@@ -255,14 +263,6 @@
 	custom_materials = list(/datum/material/glass=60)
 	chargerate = 1500
 
-/obj/item/stock_parts/cell/high/plus
-	name = "high-capacity power cell+"
-	desc = "Where did these come from?"
-	icon_state = "h+cell"
-	maxcharge = 15000
-	chargerate = 2250
-	rating = 2
-
 /obj/item/stock_parts/cell/high/empty/Initialize()
 	. = ..()
 	charge = 0
@@ -338,6 +338,8 @@
 	icon_state = "potato"
 	charge = 100
 	maxcharge = 300
+	charge_light_type = null
+	connector_type = null
 	custom_materials = null
 	grown_battery = TRUE //it has the overlays for wires
 	custom_premium_price = PAYCHECK_ASSISTANT
@@ -394,6 +396,8 @@
 	icon_state = "crystal_cell"
 	maxcharge = 50000
 	chargerate = 0
+	charge_light_type = null
+	connector_type = "crystal"
 	custom_materials = null
 	grind_results = null
 	rating = 5
